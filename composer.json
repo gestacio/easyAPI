@@ -1,0 +1,25 @@
+{
+    "name": "albertorc87/easyapi",
+    "description": "EasyAPI es un micro framework pensado en el desarrollo de APIs con arquitectura REST y que no depende de ninguna librería.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Alberto",
+        "email": "alberto.r.caballero.87@gmail.com",
+        "homepage": "https://cosasdedevs.com/"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "7.4 - 8.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "EasyAPI\\": "src/"
+      },
+      "files": [
+        "src/helpers.php"
+      ]
+    }
+  }
