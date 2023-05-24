@@ -11,3 +11,9 @@ if(!function_exists('view')) {
         return new EasyAPI\Response($type, $data, $status_code, $headers);
     }
 }
+
+if(!function_exists('format_response')) {
+    function format_response(string $parameter) {
+        return $parameter = ucwords(strtolower(str_replace(">", "", $parameter)));
+    }
+}
