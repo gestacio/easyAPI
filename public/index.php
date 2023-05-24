@@ -48,8 +48,7 @@ Router::get('/API/CNE/(?<nacionalidad>.*?)/(?<cedula>.*?)', function (string $na
     
         return view('json', $contribuyente);
     }
-
-    
+   
 
 });
 
